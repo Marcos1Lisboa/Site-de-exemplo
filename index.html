@@ -57,13 +57,47 @@
         <section id="Projetos">
             <div class="class-1">
                 <h2>Projetos</h2>
-                <p>
-                    Se você tem algum projeto e deseja nos apresentar coloque o aqui em baixo <br> para fazermos do seu projeto realidade!
-                </p>
-                <form action="">
-                    <input type="file" name="projeto-usu" id="Projeto-usu">
-                    <input type="button" value="enviar" id="enviar">
-                </form>
+                <p>Conheça nossos projetos:</p>
+                <div class="slider">
+                    <div class="slides">
+                        <!--Radio Buton-->
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+                        <!--END Radio Buton-->
+
+                        <!--slide images-->
+                        <div class="slide first">
+                            <img src="/img/slide1.png" alt="Imagem 1"">
+                        </div>
+                        <div class="slide">
+                            <img src="/img/slide2.jpg" alt="Imagem 2">
+                        </div>
+                        <div class="slide">
+                            <img src="/img/slide3.jpg" alt="Imagem 3">
+                        </div>
+                        <div class="slide">
+                            <img src="/img/slide4.jpg" alt="Imagem 4">
+                        </div>
+                        <!--END slide images-->
+
+                        <!--Navgation auto-->
+                        <div class="navgation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                        </div>
+                    </div>
+
+                    <div class="manual-navgation">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -92,6 +126,8 @@
 		<a href="#topo">VOLTAR</a>
 		<p>Desenvolvido por Marcos Antonio Anacleto Lisboa</p>
 	</footer>
+    <script src="script.js"></script>
+
     <script src="mobile-navbar.js"></script>
 </body>
 </html>
